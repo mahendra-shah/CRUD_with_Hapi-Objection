@@ -1,8 +1,6 @@
 const Joi = require('@hapi/joi')
 const { Model } = require('objection')
 const db = require('../config/db.connection')
-// const knexfile = require('../knexfile')
-
 
 Model.knex(db)
 
